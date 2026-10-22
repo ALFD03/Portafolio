@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* 1. Tus tokens de diseño: generan clases como bg-fondo, text-texto-sec, border-borde */
 @theme {
   --color-fondo: #0F1626;
   --color-fondo-alt: #131B2E;
@@ -13,4 +14,15 @@
 
   --font-sans: "Cascadia Code", ui-monospace, monospace;
   --font-mono: "Cascadia Code", ui-monospace, monospace;
+}
+
+/* 2. Estilos globales de la página */
+@layer base {
+  html {
+    scroll-behavior: smooth; /* los enlaces #proyectos se desplazan suave */
+  }
+
+  body {
+    @apply bg-fondo text-texto font-sans antialiased;
+  }
 }
