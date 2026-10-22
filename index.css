@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fondo: #0F1626;
+  --color-fondo-alt: #131B2E;
+  --color-superficie: #172036;
+  --color-superficie-alta: #1C2740;
+  --color-borde: #2C3A57;
+  --color-texto: #E6EBF2;
+  --color-texto-sec: #9AA6B8;
+  --color-ojo: #F0B429;
+  --color-senal: #4FB3A9;
+
+  --font-sans: "Cascadia Code", ui-monospace, monospace;
+  --font-mono: "Cascadia Code", ui-monospace, monospace;
+}
