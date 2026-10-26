@@ -11,7 +11,7 @@ export default class Experience extends Component {
             <div>
                 {ListJobs.map((j)=>(
                   j.status ? (
-                    <div className="flex gap-10 border-1 border-borde bg-superficie-alta rounded-2xl p-15">
+                    <div className="flex gap-10 border-1 border-borde bg-superficie-alta rounded-2xl p-15 shadow-2xl shadow-fondo">
                       <div className="flex flex-col gap-5">
                         <p className="px-4 py-2 bg-ojo rounded-4xl text-black w-fit">Activo</p>
                         <p className="text-texto-sec text-lg">{j.dates}</p>

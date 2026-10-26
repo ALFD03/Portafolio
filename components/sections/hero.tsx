@@ -11,7 +11,7 @@ function Hero() {
                 <StackIcons/>
             </div>
             <div>
-                <div>
+                <div className="shadow-2xl shadow-superficie-alta">
                     <div className="border-1 border-borde rounded-t-2xl p-4 bg-fondo-alt flex gap-2 align-middle items-center text-xs">
                         <span className="bg-superficie-alta rounded-4xl p-3" > </span>
                         <span className="bg-superficie-alta rounded-4xl p-3"> </span>

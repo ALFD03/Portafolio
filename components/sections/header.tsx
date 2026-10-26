@@ -6,9 +6,10 @@ const pages:NavLink[] = [
     {name: 'Proyectos', link: '#proyectos'},
     {name: 'Contacto', link :'#contacto'},
 ]
+
 function Header() {
     return (
-        <header className="flex w-full justify-between items-center border-b-1 border-borde pb-5 text-xl sticky top-0 px-10 py-4">
+        <header className="flex w-full justify-between items-center border-b-1 border-borde pb-5 text-xl sticky top-0 px-10 py-4 backdrop-blur-md">
             <div className="flex gap-3 text-2xl items-center justify-center">
                 <img src="/logo.svg" alt="" className='h-15'/>
                 <h1>Ing. Angel Flores</h1>
