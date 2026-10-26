@@ -1,10 +1,11 @@
 interface IconProps {
     data: string;
+    classname?: string;
 }
 
-function Icon({data}: IconProps){
+function Icon({data, classname = "h-15"}: IconProps){
     return(
-        <img src={data} alt="" className="h-15 "/>
+        <img src={data} alt="" className={classname}/>
     )
 }
 export default Icon;
