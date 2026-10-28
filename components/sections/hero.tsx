@@ -1,4 +1,5 @@
 import StackIcons from '../stackicons'
+import {Listicons} from '../../data/hero'
 
 function Hero() {
     return (
@@ -8,7 +9,7 @@ function Hero() {
                 <h1 className="text-7xl">Construyo tu Software de Punta a Punta</h1>
                 <p className="text-texto-sec">Desarrollo backends y APIs con Python y Django, interfaces con React y TypeScript, y automatizo el análisis de datos para que los números lleguen solos a quien decide. Vengo de redes e infraestructura construyendo diseños acorde a las necesidades de la empresa</p>
                 <span className="text-sm text-texto-sec">Stack de Trabajo</span>
-                <StackIcons/>
+                <StackIcons list={Listicons}/>
             </div>
             <div>
                 <div className="shadow-2xl shadow-superficie-alta">

@@ -18,3 +18,11 @@ export type ObjectExperience = {
     hits?: string[];
     skills?: IconsLink[];
 }
+
+export type ObjectProject = {
+    name: string;
+    description: string;
+    stack: IconsLink[];
+    repo: string;
+    status: string;
+}
