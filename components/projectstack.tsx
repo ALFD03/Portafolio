@@ -14,7 +14,7 @@ export default function ProjectStack({projects}: ProjectProps) {
                         <h3 className="text-3xl">{p.name}</h3>
                     </div>
                     <div className="grid col-span-2 items-center">
-                        <p className="text-xl text-texto-sec">{p.description}</p>
+                        <p className="text-xl text-texto-sec text-justify">{p.description}</p>
                     </div>
                     <div className="grid grid-cols-2">
                         <div className="grid items-center px-4">

@@ -4,6 +4,7 @@ const pages:NavLink[] = [
     {name: 'Inicio', link :'#inicio'},
     {name: 'Experiencia', link :'#experiencia'},
     {name: 'Proyectos', link: '#proyectos'},
+    {name: 'Sobre Mi', link :'#about_me'},
     {name: 'Contacto', link :'#contacto'},
 ]
 

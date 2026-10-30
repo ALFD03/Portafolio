@@ -7,7 +7,7 @@ function Hero() {
             <div className="flex flex-col h-full justify-center gap-8">
                 <h4 className="text-lg text-texto-sec">Ingeniero de Sistemas · Venezuela · Remoto</h4>
                 <h1 className="text-7xl">Construyo tu Software de Punta a Punta</h1>
-                <p className="text-texto-sec">Desarrollo backends y APIs con Python y Django, interfaces con React y TypeScript, y automatizo el análisis de datos para que los números lleguen solos a quien decide. Vengo de redes e infraestructura construyendo diseños acorde a las necesidades de la empresa</p>
+                <p className="text-texto-sec text-justify">Desarrollo backends y APIs con Python y Django, interfaces con React y TypeScript, y automatizo el análisis de datos para que los números lleguen solos a quien decide. Vengo de redes e infraestructura construyendo diseños acorde a las necesidades de la empresa</p>
                 <span className="text-sm text-texto-sec">Stack de Trabajo</span>
                 <StackIcons list={Listicons}/>
             </div>
