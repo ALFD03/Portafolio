@@ -5,7 +5,7 @@ const pages:NavLink[] = [
     {name: 'Experiencia', link :'#experiencia'},
     {name: 'Proyectos', link: '#proyectos'},
     {name: 'Sobre Mi', link :'#about_me'},
-    {name: 'Contacto', link :'#contacto'},
+    {name: 'Contacto', link :'#contact'},
 ]
 
 function Header() {
