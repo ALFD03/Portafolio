@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import ListJobs from '../../data/experiencie'
 import Icon from '../icons';
 

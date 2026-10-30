@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import StackIcons from '../stackicons'
 import {NetOwlStack, Projectlist} from '../../data/projects'
 import ProjectStack from '../projectstack';
