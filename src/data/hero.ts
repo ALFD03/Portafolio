@@ -9,5 +9,5 @@ export const Listicons: IconsLink[] = [
     {name:"React", link:"/react.png"},
     {name:"Postgres", link:"/postgres.png"},
     {name:"Git", link:"/git.png"},
-    {name:"Docker", link:"/Docker.png"},
+    {name:"Docker", link:"/docker.png"},
 ]

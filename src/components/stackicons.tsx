@@ -11,7 +11,7 @@ function StackIcons({list, iconsize, spacing = "justify-between"}: StackProp){
     return(
         <div className={`flex ${spacing}`}>
             {list.map((i)=>(
-                <Icon data={i.link} classname={iconsize}/>
+                <Icon key={i.name} data={i.link} classname={iconsize}/>
             ))}
         </div>
     )

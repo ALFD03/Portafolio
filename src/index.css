@@ -24,5 +24,10 @@
 
   body {
     @apply bg-fondo text-texto font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  #root {
+    width: 100%;
   }
 }
